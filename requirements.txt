@@ -1,0 +1,19 @@
+# Fine-Tuned Intent Classification System
+# Python 3.12 | PyTorch 2.11 + CUDA 12.8 | Transformers 5.18
+
+# ---------------------------------------------------------------------------
+# NOTE: PyTorch with CUDA must be installed separately.
+# Visit https://pytorch.org/get-started/locally/ and select your CUDA version.
+# Example for CUDA 12.8:
+#   pip install torch==2.11.0+cu128 --index-url https://download.pytorch.org/whl/cu128
+# ---------------------------------------------------------------------------
+
+transformers==5.18.0
+datasets==5.0.1
+accelerate==1.15.0
+evaluate==0.4.6
+scikit-learn==1.9.1
+pandas==3.0.6
+matplotlib==3.11.2
+seaborn==0.13.2
+pytest==9.1.1
